@@ -1,14 +1,4 @@
-/*
-    ========================================
-    SWEET HOME - REAL ESTATE TEMPLATE
-    ========================================
-    
-    @author         : Themewagon
-    @version        : v1.0
-    @date-create    : 07/14/2014
-    @last-update    : 07/17/2014
 
-*/
 
 /*
     ========================================
@@ -43,17 +33,7 @@
 
 
 /* --------------------------  Pre-Loader ------------------------------------------ */
-.no-js #loader { display: none;  }
-.js #loader { display: block; position: absolute; left: 100px; top: 0; }
-.se-pre-con {
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background: url(../img/726.GIF) center no-repeat #fff;
-}
+
 body{
     line-height: 24px;
 }
