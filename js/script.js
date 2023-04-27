@@ -109,9 +109,9 @@ $(document).ready(function(){
 
     /* backstretch slider */
     $('.header-slide').backstretch([
-      "img/bg01.jpg",
-      "img/bg02.jpg",
-      "img/bg03.jpg"
+      "https://images.pexels.com/photos/636342/pexels-photo-636342.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "img/bg03.jpg",
+      "https://images.pexels.com/photos/2464069/pexels-photo-2464069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
       ], {
         fade: 850,
         duration: 2000
