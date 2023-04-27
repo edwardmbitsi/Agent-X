@@ -26,13 +26,189 @@
         <link href='http://fonts.googleapis.com/css?family=Signika:600,400,300' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Philosopher' rel='stylesheet' type='text/css'>
+        
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
           <script src="js/html5shiv.js"></script>
           <script src="js/respond.min.js"></script>
         <![endif]-->
         
+        <style>
+            /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@700&family=Montserrat:wght@200;400;700&family=Poppins:wght@200;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
 
+
+p,a{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* End hero section */
+/* Gallery section */
+.gallery{
+    color: #24272F;
+}
+.list{
+    color: crimson;
+    font-weight: 600;
+}
+.filter{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.filter span{
+    color: crimson;
+    font-weight: 600;
+}
+.category{
+    margin-bottom: 20px;
+}
+.container-fluid{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+.content{
+    margin-top: -45px;
+    display: flex;
+    justify-content: space-between;
+}
+.cardcontainer{
+    width: 350px;
+    height: 500px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    transition: 0.3s;
+}
+.cardcontainer:hover{
+    box-shadow: 0 0 45px gray;
+}
+.photo{
+    height: 300px;
+    width: 100%;
+}
+.photo img{
+    height: 100%;
+    width: 100%;
+}
+.txt1{
+    margin: auto;
+    text-align: center;
+    font-size: 17px;
+}
+.content{
+    width: 80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -33px;
+}
+.photos{
+    width: 90px;
+    height: 30px;
+    background-color: #E74C3C;
+    color: white;
+    position: relative;
+    top: -30px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.txt4{
+    font-size:27px;
+    position: relative;
+    top: 33px;
+}
+.txt5{
+    position: relative;
+    top: 18px;
+    color: #E74C3C;
+    font-size: 23px;
+}
+.txt2{
+    position: relative;
+    top: 10px;
+}
+.cardcontainer:hover > .photo{
+    height: 200px;
+    animation: move1 0.5s ease both;
+}
+@keyframes move1{
+    0%{height: 300px}
+    100%{height: 200px}
+}
+.cardcontainer:hover > .content{
+    height: 200px;
+}
+
+.content img{
+    height: 30px;
+    color: transparent;
+    margin-top: -7px;
+}
+.card img{
+    cursor: pointer;
+}
+.content img:hover{
+    cursor: pointer;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+    border-bottom: 1px solid gray;
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    font-weight: 500;
+}
+.card{
+    box-shadow: 0px 0px 4px 2px gray;
+    height: 280px;
+}
+.listing h5{
+    font-weight: 700;
+}
+.listing span{
+    color: crimson;
+}
+.underline{
+    border-bottom: 1px solid gray;
+    width: 30%;
+}
+/* Services section */
+.serve{
+    color: crimson;
+    font-weight: 600;
+    font-size: 30px;
+    border-bottom: 3px solid #24272F;
+    width: 200px;
+    margin: auto;
+}
+.services h4{
+    font-weight: 600;
+    margin-top: 20px;
+    color: #24272F;
+}
+.draw{
+    width: 90px;
+}
+
+
+
+        </style>    
 
     </head>
 
@@ -183,80 +359,7 @@
         </section>
         <!-- end:header -->
 
-        <!-- begin: searching home  -->
-        <section id="quick-search">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row">
-                            <form role="form">
-                               
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label for="location">Location</label>
-                                        <select class="form-control">
-                                            <option>Malindi Central</option>
-                                            <option>Malindi North</option>
-                                            <option>Malindi South</option>
-                                            <option>Watamu</option>
-                                            <option>Chakama</option>
-                                            <option>Langobaya</option>
-
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label for="status">Status</label>
-                                        <select class="form-control">
-                                            <option>For Sale</option>
-                                            <option>For Rent</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label for="type">Type</label>
-                                        <select class="form-control">
-                                            <option>Villa</option>
-                                            <option>Recident</option>
-                                            <option>Commercial</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label for="minprice">Min Price</label>
-                                        <select class="form-control">
-                                            <option>$4,200</option>
-                                            <option>$6,700</option>
-                                            <option>$8,150</option>
-                                            <option>$11,110</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <div class="form-group">
-                                        <label for="maxprice">Max Price</label>
-                                        <select class="form-control">
-                                            <option>$8,200</option>
-                                            <option>$11,700</option>
-                                            <option>$14,150</option>
-                                            <option>$21,110</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div class="col-md-4">
-                                    <input type="submit" name="submit" value="Search" class="btn search-btn btn-block">
-                                </div>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- end: searching home  -->
-
+        
         <!-- begin:service -->
         <section id="service">
             <div class="container">
@@ -329,179 +432,77 @@
         </section>
         <!-- end:service -->
 
-        <!-- begin:content -->
-        <section id="property">
-            <div class="property-wrapper">
-                <div class="container">
-                    <!-- begin:latest -->
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="heading-title">
-                                <h2>Latest Real Estate</h2>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="row port">
-                        <div class="col-md-8 col-md-offset-2 text-center button-group" id="filters">
-                            <button type="button" class="btn btn-default is-checked" data-filter="*">All Properties</button>
-                            <button type="button" class="btn btn-default" data-filter=".sale">For Sale</button>
-                            <button type="button" class="btn btn-default" data-filter=".rent">For Rent</button>
-                        </div>
-                    </div>  <!-- row -->
-                    <div class="row">
-                        <div class="isotope" id="port-items">
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item sale" data-category="sale">
-                                <div class="property-container">
-                                    <div class="property-image">
-
-                                        <img src="img/3.png" alt="arillo real estate theme">
-
-                                    </div>
-                                    
-                                    <div class="property-content">
-                                        <h3>
-                                            <a href="#">The Urban Life</a> 
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                           
-                            
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item sale" data-category="sale">
-                                <div class="property-container">
-                                    <div class="property-image">
-                                        <img src="img/f56.png" alt="arillo real estate theme">
-                                        
-                                    </div>
-                                   
-                                    <div class="property-content">
-                                        <h3>
-                                            <a href="#">The Urban Life</a> 
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item rent" data-category="rent">
-                                <div class="property-container">
-                                    <div class="property-image">
-                                        <img src="img/78.png" alt="arillo real estate theme">
-                                        
-                                    </div>
-                                    
-                                    <div class="property-content">
-                                        <h3>
-                                            <a href="#">The Urban Life</a> 
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item rent" data-category="rent">
-                                <div class="property-container">
-                                    <div class="property-image">
-                                        <img src="img/f3.png" alt="arillo real estate theme">
-                                       
-                                    </div>
-                                    
-                                    <div class="property-content">
-                                        <h3>
-                                            <a href="#">The Urban Life</a> 
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item sale" data-category="sale">
-                                <div class="property-container">
-                                    <div class="property-image">
-                                        <img src="img/fo0.png" alt="arillo real estate theme">
-                                        
-                                    </div>
-                                   
-                                    <div class="property-content">
-                                        <h3>
-                                            <a href="#">The Urban Life</a> 
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item rent" data-category="rent">
-                                <div class="property-container">
-                                    <div class="property-image">
-                                        <img src="img/fot9.png" alt="arillo real estate theme">
-                                        
-                                    </div>
-                                    
-                                    <div class="property-content">
-                                        <h3>
-                                            <a href="#">The Urban Life</a> 
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item rent" data-category="rent">
-                                <div class="property-container">
-                                    <div class="property-image">
-                                        <img src="img/fo4.png" alt="arillo real estate theme">
-                                       
-                                    </div>
-                                    
-                                    <div class="property-content">
-                                        <h3>
-                                            <a href="#">The Urban Life</a> 
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item sale" data-category="sale">
-                                <div class="property-container">
-                                    <div class="property-image">
-                                        <img src="img/fo6.png" alt="arillo real estate theme">
-                                        
-                                    </div>
-                                   
-                                    <div class="property-content">
-                                        <h3>
-                                            <a href="#">The Urban Life</a> 
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 col-sm-6 col-xs-6 element-item rent" data-category="rent">
-                                <div class="property-container">
-                                    <div class="property-image">
-                                        <img src="img/fo9.png" alt="arillo real estate theme">
-                                        
-                                    </div>
-                                    
-                                    <div class="property-content">
-                                        <h3>
-                                            <a href="#">The Urban Life</a> 
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>  <!-- isotope -->
-                    </div>  <!-- row -->
-
-                    <!-- end:latest -->
-
-                </div>
-            </div>
-        </section>
-        <!-- end:content -->
+        <!-- Hero Website -->
+    <!-- Gallery Section -->
+    <div class="container-fluid mt-4 filter">
+      <h5 class="text-center category" style="font-size: 25px;"><span style="color: #3B71CA;font-size: 25px;">Filter</span> based on the following <span style="color: #3B71CA; font-size: 25px;">Categories.</span></h5>
+      <div class="container">
+        <div class="color">
+      <div class="row">
+        <!-- Filter section -->
+        <!-- select -->
+        <div class="col-md-4">
+          <select id="location" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Select by location</option>
+            <option value="1">Runda</option>
+            <option value="2">Karen</option>
+            <option value="3">Kilimani</option>
+            <option value="4">Kiambu Road</option>
+            <option value="5">Westlands</option>
+            <option value="6">Lavington</option>
+            <option value="7">Kitengela</option>
+            <option value="8">Spring Valley</option>
+            <option value="9">Muthaiga</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <select id="profession" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Select by profession</option>
+            <option value="1">Doctor</option>
+            <option value="2">Nurse</option>
+            <option value="3">Sales</option>
+            <option value="4">Maid</option>
+            <option value="5">Gardener</option>
+            <option value="6">Writer</option>
+            <option value="7">Artist</option>
+            <option value="8">Carpenter</option>
+            <option value="9">Driver</option>
+          </select>
+        </div>
+        <div class="col-md-4">
+          <select id="qualifications" class="form-select form-select-lg mb-3" aria-label=".form-select-lg example">
+            <option selected>Select by qualifications</option>
+            <option value="1">Degree</option>
+            <option value="2">Diploma</option>
+            <option value="3">Certificate</option>
+          </select>
+        </div>
+        
+        <!-- End of select -->
+      </div>
+        </div>
+      </div>
+    </div>
+    <!-- End filter section -->
+    <div class="container-fluid mt-3">
+      <h5 class="font-weight-bold" style="font-size: 25px;">New <span class="list" style="color: #3B71CA;">Listings...</span></h5>
+    </div>
+    <div class="container-fluid">
+      <div class="row productItems">
+         <!-- append product Items here -->
+      </div>
+        <!-- end -->
+        </div>
+      </div>
+    
 
         <!-- begin: agents -->
         <section id="agent">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
+                    <div class="col-md-12">
                         <div class="heading-title">
-                            <h2>Meet With Our Special Agents 
-                                <!-- <small>We can assure to find your sweet home</small> -->
-                            </h2>
+                            <h2>Meet with our special agents</h2>
                         </div>
                     </div>
                 </div>
@@ -969,6 +970,8 @@
         <script src="js/isotope.pkgd.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/owl.carousel.min.js"></script>
+        <script src="product.js"></script>
+        <script src="app.js"></script>
 
 
         <script src="js/rotator.js"></script>
