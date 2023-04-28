@@ -57,7 +57,7 @@ function displayProducts(products){
     />
         </div>
         <div class="footer">
-            <p><a class="waves-effect waves-light btn" href="#" style="color: black;">${product.profession}</a><a href="details.html"><button class="btn btn-primary" style="height: 30px; float: right;" type="button">More>></button></a>
+            <p><a class="waves-effect waves-light btn" href="#" style="color: black;">${product.profession}</a><a href="tel:+254782089111"><button class="btn btn-primary" style="height: 30px; float: right; margin-top: 10px;" type="button">Contact</button></a>
             </p>
             <p class="txt3"style="color: black;"><i class="far fa-clock"></i>${product.qualifications} <a style="float: right;">${product.location}</a></p>  
         </div>
