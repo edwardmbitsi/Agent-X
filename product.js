@@ -95,12 +95,5 @@ const products = [
         profession: 'Driver',
         qualifications: 'certificate'
     },
-    {
-        id: 12,
-        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Spring Valley',
-        profession: 'Maid',
-        qualifications: 'certificate'
-    },
     
 ]
