@@ -2,8 +2,8 @@ const products = [
     {
         id: 0,
         imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Runda',
-        profession: 'Nurse',
+        location: 'Malindi Central',
+        profession: 'Ready Title',
         qualifications: 'degree'
 
         
@@ -11,89 +11,102 @@ const products = [
     {
         id: 1,
         imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Kiambu Road',
-        profession: 'Nurse',
-        qualifications: 'degree'
+        location: 'Malindi North',
+        profession: 'Ready Title',
 
 
     },
     {
         id: 2,
         imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Kilimani',
-        profession: 'Nurse',
-        qualifications: 'degree'
+        location: 'Watamu',
+        profession: 'Ready Title',
 
     },
     {
         id: 3,
         imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Westlands',
-        profession: 'Nurse',
-        qualifications: 'degree'
+        location: 'Malindi South',
+        profession: 'Ready Title',
 
     },
     {
         id: 4,
         imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Karen',
-        profession: 'Nurse',
-        qualifications: 'degree'
+        location: 'Kijiwetanga',
+        profession: 'Ready Title',
 
     },
     {
         id: 5,
         imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Runda',
-        profession: 'Nurse',
-        qualifications: 'degree'
+        location: 'Watamu',
+        profession: 'Ready Title',
 
     },
     {
         id: 6,
         imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Lavington',
-        profession: 'Nurse',
-        qualifications: 'degree'
+        location: 'Kilifi',
+        profession: 'Ready Title',
+
         
     },
     {
         id: 7,
         imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Kitengela',
-        profession: 'Nurse',
-        qualifications: 'degree'
+        location: 'Watamu',
+        profession: 'Ready Title',
 
     },
     {
         id: 8,
         imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Runda',
-        profession: 'Nurse',
-        qualifications: 'degree'
+        location: 'Kilifi',
+        profession: 'No Title',
 
     },
     {
         id: 9,
         imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Karen',
-        profession: 'Nurse',
-        qualifications: 'degree'
+        location: 'Chakama',
+        profession: 'No Title',
 
     },
     {
         id: 10,
         imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Kiambu Road',
-        profession: 'Writer',
-        qualifications: 'diploma'
+        location: 'Chakama',
+        profession: 'No Title',
     },
     {
         id: 11,
         imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         location: 'Kilimani',
-        profession: 'Driver',
-        qualifications: 'certificate'
+        profession: 'No Title',
     },
-    
+    {
+        id: 12,
+        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        location: 'Langobaya',
+        profession: 'No Title',
+    },
+    {
+        id: 13,
+        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        location: 'Kijiwetanga',
+        profession: 'No Title',
+    },
+    {
+        id: 14,
+        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        location: 'Kilifi',
+        profession: 'No Title',
+    },
+    {
+        id: 15,
+        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        location: 'Kilifi',
+        profession: 'No Title',
+    },
 ]
