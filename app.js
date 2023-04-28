@@ -74,69 +74,39 @@ function displayProducts(products){
 
 
             displayProducts(products);
-            $('#location').on('change',function(){
+           $('#location').on('change',function(){
 
                 var selectedLocation = this.value;
                 
                 if(selectedLocation == 1){
-                    var location = products.filter(product => product.location == 'Runda');
+                    var location = products.filter(product => product.location == 'Malindi Central');
                 }else if(selectedLocation == 2){
-                    var location = products.filter(product => product.location == 'Karen');
+                    var location = products.filter(product => product.location == 'Malindi South');
                 }else if(selectedLocation == 3){
-                    var location = products.filter(product => product.location == 'Kilimani');
+                    var location = products.filter(product => product.location == 'Malindi North');
                 }else if(selectedLocation == 4){
-                    var location = products.filter(product => product.location == 'Kiambu Road');
+                    var location = products.filter(product => product.location == 'Watamu');
                 }else if(selectedLocation == 5){
-                    var location = products.filter(product => product.location == 'Westlands');
+                    var location = products.filter(product => product.location == 'Kilifi');
                 }else if(selectedLocation == 6){
-                    var location = products.filter(product => product.location == 'Lavington');
+                    var location = products.filter(product => product.location == 'Chakama');
                 }else if(selectedLocation == 7){
-                    var location = products.filter(product => product.location == 'Kitengela');
-                }else if(selectedLocation == 8){
-                    var location = products.filter(product => product.location == 'Spring Valley');
-                }else if(selectedLocation == 9){
-                    var location = products.filter(product => product.location == 'Muthaiga');
+                    var location = products.filter(product => product.location == 'Langobaya');
                 }
                 displayProducts(location);
-            })
-            $('#qualifications').on('change',function(){
-
-                var selectedQualifications = this.value;
-                
-                if(selectedQualifications == 1){
-                    var qualifications = products.filter(product => product.qualifications == 'Degree');
-                }else if(selectedQualifications == 2){
-                    var qualifications = products.filter(product => product.qualifications == 'Diploma');
-                }else if(selectedQualifications == 3){
-                    var qualifications = products.filter(product => product.qualifications == 'Certificate');
-                }
-                displayProducts(qualifications);
             })
             $('#profession').on('change',function(){
 
                 var selectedProfession = this.value;
                 
                 if(selectedProfession == 1){
-                    var profession = products.filter(product => product.profession == 'Doctor');
+                    var profession = products.filter(product => product.profession == 'Ready Title');
                 }else if(selectedProfession == 2){
-                    var profession = products.filter(product => product.profession == 'Nurse');
-                }else if(selectedProfession == 3){
-                    var profession = products.filter(product => product.profession == 'Sales');
-                }else if(selectedProfession == 4){
-                    var profession  = products.filter(product => product.profession == 'Maid');
-                }else if(selectedProfession == 5){
-                    var profession = products.filter(product => product.profession == 'Gardener');
-                }else if(selectedProfession == 6){
-                    var profession = products.filter(product => product.profession == 'Writer');
-                }else if(selectedProfession == 7){
-                    var profession = products.filter(product => product.profession == 'Artist');
-                }else if(selectedProfession == 8){
-                    var profession = products.filter(product => product.profession == 'Carpenter');
-                }else if(selectedProfession == 9){
-                    var profession = products.filter(product => product.profession == 'Driver');
+                    var profession = products.filter(product => product.profession == 'No Title');
                 }
                 displayProducts(profession);
             })
+            
             
             $('#exampleModal').on('show.bs.modal', function (event) {
                 var button = $(event.relatedTarget) // Button that triggered the modal
