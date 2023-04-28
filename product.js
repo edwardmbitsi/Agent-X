@@ -4,7 +4,7 @@ const products = [
         imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
         location: 'Malindi Central',
         profession: 'Ready Title',
-        qualifications: 'degree'
+        qualifications: 'Negotiable'
 
         
     },
