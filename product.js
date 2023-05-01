@@ -1,7 +1,7 @@
 const products = [
     {
         id: 0,
-        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        imgSrc : 'img/80.png',
         location: 'Malindi Central',
         profession: 'Ready Title',
         qualifications: 'Negotiable'
@@ -10,7 +10,7 @@ const products = [
     },
     {
         id: 1,
-        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        imgSrc : 'img/81.png',
         location: 'Malindi North',
         profession: 'Ready Title',
 
@@ -18,28 +18,28 @@ const products = [
     },
     {
         id: 2,
-        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        imgSrc : 'img/81.png',
         location: 'Watamu',
         profession: 'Ready Title',
 
     },
     {
         id: 3,
-        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        imgSrc : 'img/82.png',
         location: 'Malindi South',
         profession: 'Ready Title',
 
     },
     {
         id: 4,
-        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        imgSrc : 'img/83.png',
         location: 'Kijiwetanga',
         profession: 'Ready Title',
 
     },
     {
         id: 5,
-        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        imgSrc : 'img/84.png',
         location: 'Watamu',
         profession: 'Ready Title',
 
