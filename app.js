@@ -59,7 +59,7 @@ function displayProducts(products){
         <div class="footer">
             <p><a class="waves-effect waves-light btn" href="#" style="color: black;">${product.profession}</a><a href="tel:+254782089111"><button class="btn btn-primary" style="height: 30px; float: right; margin-top: 10px;" type="button">Contact</button></a>
             </p>
-            <p class="txt3"style="color: black;"><i class="far fa-clock"></i>${product.qualifications} <a style="float: right;">${product.location}</a></p>  
+            <p class="txt3"style="color: black;"><i class="far fa-clock"></i>${product.qualifications} <a style="float: right; color: black;">${product.location}</a></p>  
         </div>
     </div>
 
