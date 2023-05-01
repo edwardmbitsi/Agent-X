@@ -10,7 +10,7 @@ const products = [
     },
     {
         id: 1,
-        imgSrc : 'img/81.png',
+        imgSrc : 'img/85.png',
         location: 'Malindi North',
         profession: 'Ready Title',
 
