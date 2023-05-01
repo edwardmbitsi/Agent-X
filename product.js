@@ -60,31 +60,4 @@ const products = [
         profession: 'Ready Title',
 
     },
-    {
-        id: 8,
-        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Kilifi',
-        profession: 'No Title',
-
-    },
-    {
-        id: 9,
-        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Chakama',
-        profession: 'No Title',
-
-    },
-    {
-        id: 10,
-        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Chakama',
-        profession: 'No Title',
-    },
-    {
-        id: 11,
-        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
-        location: 'Kilimani',
-        profession: 'No Title',
-    },
-    
-]
+   ]
