@@ -46,7 +46,7 @@ const products = [
     },
     {
         id: 6,
-        imgSrc : 'https://images.pexels.com/photos/5668859/pexels-photo-5668859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        imgSrc : 'img/85.png',
         location: 'Kilifi',
         profession: 'Ready Title',
 
