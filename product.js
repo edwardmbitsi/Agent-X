@@ -2,9 +2,9 @@ const products = [
     {
         id: 0,
         imgSrc : 'img/80.png',
-        location: 'Malindi Central',
+        location: 'Ganze',
         profession: 'Ready Title',
-        qualifications: 'Negotiable'
+        qualifications: '40,000 acres'
 
         
     },
@@ -38,9 +38,9 @@ const products = [
     {
         id: 4,
         imgSrc : 'img/83.png',
-        location: 'Kijiwetanga',
+        location: 'Ganze',
         profession: 'Ready Title',
-        qualifications: '2 acres'
+        qualifications: '40,000 acres'
 
     },
     {
