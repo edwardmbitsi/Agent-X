@@ -92,6 +92,8 @@ function displayProducts(products){
                     var location = products.filter(product => product.location == 'Chakama');
                 }else if(selectedLocation == 7){
                     var location = products.filter(product => product.location == 'Langobaya');
+                }else if(selectedLocation == 8){
+                    var location = products.filter(product => product.location == 'Gede');
                 }
                 displayProducts(location);
             })
