@@ -11,8 +11,9 @@ const products = [
     {
         id: 1,
         imgSrc : 'img/85.png',
-        location: 'Malindi North',
+        location: 'Gede',
         profession: 'Ready Title',
+        qualifications: '2 acres'
 
 
     },
