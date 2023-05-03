@@ -45,10 +45,10 @@ const products = [
     },
     {
         id: 5,
-        imgSrc : 'img/84.png',
-        location: 'Watamu',
+        imgSrc : 'img/89.png',
+        location: 'Pumwani Phase 1',
         profession: 'Ready Title',
-        qualifications: '2 acres'
+        qualifications: '15 acres'
 
     },
     {
