@@ -4,6 +4,8 @@ const products = [
         imgSrc : 'img/80.png',
         location: 'Ganze',
         profession: 'Ready Title',
+        price: '60k per acre',
+        distance: '50 Km from Malindi',
         qualifications: '40,000 acres'
 
         
@@ -13,6 +15,8 @@ const products = [
         imgSrc : 'img/85.png',
         location: 'Gede',
         profession: 'Ready Title',
+        price: '800k per acre',
+        distance: '15 Km from Gede Center',
         qualifications: '2 acres'
 
 
@@ -22,6 +26,8 @@ const products = [
         imgSrc : 'img/81.png',
         location: 'Watamu',
         profession: 'Ready Title',
+        price: '60k per acre',
+        distance: '50 Km from Malindi',
         qualifications: '2 acres'
 
 
@@ -31,6 +37,8 @@ const products = [
         imgSrc : 'img/82.png',
         location: 'Malindi South',
         profession: 'Ready Title',
+        price: '60k per acre',
+        distance: '50 Km from Malindi',
         qualifications: '2 acres'
 
 
@@ -40,6 +48,8 @@ const products = [
         imgSrc : 'img/83.png',
         location: 'Ganze',
         profession: 'Ready Title',
+        price: '60k per acre',
+        distance: '50 Km from Malindi',
         qualifications: '40,000 acres'
 
     },
@@ -48,6 +58,8 @@ const products = [
         imgSrc : 'img/89.png',
         location: 'Pumwani Phase 1',
         profession: 'Ready Title',
+        price: '80k per acre',
+        distance: '45 Km from Malindi town',
         qualifications: '15 acres'
 
     },
