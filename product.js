@@ -35,11 +35,11 @@ const products = [
     {
         id: 3,
         imgSrc : 'img/82.png',
-        location: 'Ganze',
+        location: 'Bore Singwaya',
         profession: 'Ready Title',
-        price: '60k per acre',
-        distance: '50 Km from Malindi',
-        qualifications: '40,000 acres'
+        price: '80k per acre',
+        distance: '40 Km from Malindi',
+        qualifications: '15 acres'
 
 
     },
