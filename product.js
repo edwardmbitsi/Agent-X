@@ -24,11 +24,11 @@ const products = [
     {
         id: 2,
         imgSrc : 'img/81.png',
-        location: 'Watamu',
+        location: 'Bore Singwaya',
         profession: 'Ready Title',
-        price: '60k per acre',
-        distance: '50 Km from Malindi',
-        qualifications: '2 acres'
+        price: '80k per acre',
+        distance: '40 Km from Malindi',
+        qualifications: '15 acres'
 
 
     },
@@ -68,6 +68,8 @@ const products = [
         imgSrc : 'img/86.png',
         location: 'Bore Singwaya',
         profession: 'Ready Title',
+        price: '80k per acre',
+        distance: '8 Km from the tarmac',
         qualifications: '30 acres'
 
         
@@ -77,6 +79,8 @@ const products = [
         imgSrc : 'img/87.png',
         location: 'Magarini, ShauriMoyo',
         profession: 'Ready Title',
+        price: '90k per acre',
+        distance: '35 Km from Malindi town',
         qualifications: '33 acres'
 
     },
