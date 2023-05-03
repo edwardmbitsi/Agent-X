@@ -35,11 +35,11 @@ const products = [
     {
         id: 3,
         imgSrc : 'img/82.png',
-        location: 'Malindi South',
+        location: 'Ganze',
         profession: 'Ready Title',
         price: '60k per acre',
         distance: '50 Km from Malindi',
-        qualifications: '2 acres'
+        qualifications: '40,000 acres'
 
 
     },
